@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name = "libqrencode"
+  spec.name = "Alibqrencode"
   spec.version = "3.4.4"
   spec.source = {
     :http => "http://fukuchi.org/works/qrencode/qrencode-3.4.4.tar.gz"
