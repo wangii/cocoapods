@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
         :http => 'https://oovoodeveloper-a.akamaihd.net/iOSSDKbundle/ooVoo-iOS.41--2014-09-28_10-24-57.zip'
     }
     spec.ios.vendored_frameworks = path + 'oovoo.framework'
-    spec.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "OpenGLES", "CoreMedia", "CoreVideo", "AudioToolbox", "AVFoundation", "CoreGraphics"
+    spec.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "OpenGLES", "CoreMedia", "CoreVideo", "AudioToolbox", "AVFoundation", "CoreGraphics", 'Accelerate'
     spec.libraries = 'z', 'c++'
 end
